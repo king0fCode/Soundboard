@@ -1,0 +1,492 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #101010;
+}
+
+h1 {
+  color: white;
+  width: 1000px;
+  height: 100%;
+  margin-left: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+body {
+  background-color: lavender;
+  margin: 0;
+  padding: 0;
+}
+
+#HeavyRain {
+  background: url("./images/HeavyRain.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 150px;
+  margin-left: 17rem;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+
+
+#Crickets {
+  background: url("./images/Crickets.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+
+#Rain {
+  background: url("./images/Rain.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#Water {
+  background: url("./images/Rowing.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+#Sea {
+  background: url("./images/Sea.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#Storm {
+  background: url("./images/Storm.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#Wind {
+  background: url("./images/Wind.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 17rem;
+  transition: 0.1s;
+}
+
+#Campfire {
+  background: url("./images/Campfire.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+#Driving {
+  background: url("./images/Driving.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+#Keyboard {
+  background: url("./images/keyboard.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#Reloading {
+  background: url("./images/Reloading.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#WhiteNoise {
+  background: url("./images/WhiteNoise.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#CalmForest {
+  background: url("./images/CalmForest.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategrey;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 17rem;
+  transition: 0.1s;
+}
+
+
+#FarmAnimals {
+  background: url("./images/FarmAnimals.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+#Walking {
+  background: url("./images/Walking.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#Purring {
+  background: url("./images/Purring.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+#Seagulls {
+  background: url("./images/Seagulls.jpg");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+#Tranquility {
+  background: url("./images/Tranquility.png");
+  border-radius: 25px;
+  border: 4px solid transparent;
+  color: lightslategray;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+
+
+
+/* custom code by codedays  */
+.btnidle {
+  border: 1px solid #00000005 !important;
+  
+}
+
+.btntouch {
+  border: 5px solid #000000 !important;
+  border: 4px solid black;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 40px;
+}
+
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: #fff0;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+
+    -webkit-appearance: none;
+    color: #000000;
+    background-color: #fff0;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    cursor: ew-resize;
+    background-color: #fff0;
+    box-shadow: -80px 0 0 80px #43e5f7;
+  }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+background-color: #000000; 
+}
+input[type="range"]::-moz-range-track {  
+background-color: #000000;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+background-color: #000000; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #000000;
+}
+
+
+/* end custom code  */

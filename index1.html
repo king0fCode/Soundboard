@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=Montserrat:wght@200&display=swap" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index1.css" />
+  <link rel="stylesheet" href="./bootstrap.min.css" />
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Echelon</h1>
+  </div>
+  <div class="buttons" id="btnNest">
+    <button class="btnidle pause" id="HeavyRain">Heavy Rain </button>
+    <button class="btnidle pause" id="Crickets">Crickets</button>
+    <button class="btnidle pause" id="Rain">Rain</button>
+    <button class="btnidle pause" id="Water">Water</button>
+    <button class="btnidle pause" id="Sea">Sea</button>
+    <button class="btnidle pause" id="Storm">Storm</button>
+    <button class="btnidle pause" id="Wind">Wind</button>
+    <button class="btnidle pause" id="Campfire">Campfire</button>
+    <button class="btnidle pause" id="Driving">Driving</button>
+    <button class="btnidle pause" id="Keyboard">Keyboard</button>
+    <button class="btnidle pause" id="Reloading">Reloading</button>
+    <button class="btnidle pause" id="WhiteNoise">White Noise</button>
+    <button class="btnidle pause" id="Calmforest">Calm Forest</button>
+    <button class="btnidle pause" id="FarmAnimals">Farm Animals</button>
+    <button class="btnidle pause" id="Walking">Walking</button>
+    <button class="btnidle pause" id="Purring">Purring</button>
+    <button class="btnidle pause" id="Seagulls">Seagulls</button>
+    <button class="btnidle pause" id="Tranquility">Tranquility</button>
+  </div>
+
+  <div class="allAudio">
+    <audio src="./audio/HeavyRain.mp3" id="HeavyRain-Track"></audio>
+    <audio src="./audio/Crickets.mp3" id="Crickets-Track"></audio>
+    <audio src="./audio/Rain.mp3" id="Rain-Track"></audio>
+    <audio src="./audio/Water.mp3" id="Water-Track"></audio>
+    <audio src="./audio/Sea.mp3" id="Sea-Track"></audio>
+    <audio src="./audio/Storm.mp3" id="Storm-Track"></audio>
+    <audio src="./audio/Wind.mp3" id="Wind-Track"></audio>
+    <audio src="./audio/Campfire.mp3" id="Campfire-Track"></audio>
+    <audio src="./audio/Driving.wav" id="Driving-Track"></audio>
+    <audio src="./audio/Keyboard.mp3" id="Keyboard-Track"></audio>
+    <audio src="./audio/Reloading.mp3" id="Reloading-Track"></audio>
+    <audio src="./audio/WhiteNoise.mp3" id="WhiteNoise-Track"></audio>
+    <audio src="./audio/CalmForest.wav" id="Calmforest-Track"></audio>
+    <audio src="./audio/FarmAnimals.wav" id="FarmAnimals-Track"></audio>
+    <audio src="./audio/Walking.mp3" id="Walking-Track"></audio>
+    <audio src="./audio/Purring.mp3" id="Purring-Track"></audio>
+    <audio src="./audio/Seagulls.mp3" id="Seagulls-Track"></audio>
+    <audio src="./audio/Tranquility.mp3" id="Tranquility-Track"></audio>
+  </div>
+
+  <hr />
+
+  <div class="volumeSlider text-center">
+    <label>Main Volume</label class="track-play"><br />
+    <input type="range" min="0" max="100" value="50" id="volume-controlHR" class="slider">
+  </div>
+
+  <script src="./jquery-3.6.0.js"></script>
+  <script src="./jquery-ui.js"></script>
+
+  <script src="./app1.js"></script>
+  </script>
+</body>
+
+</html>
